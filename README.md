@@ -104,13 +104,13 @@ Inicie o Jupyter Notebook com o comando:
 jupyter notebook
 ```
 
-Navegue até o diretório `./samples-ml` para acessar os notebooks de exemplo.
+Navegue até o diretório `./samples-2-ml` para acessar os notebooks de exemplo.
 
 #### 📝 Usando notebooks Jupyter através do Visual Studio Code
 
-Localize na aba `Explorador de arquivos` o diretório `./samples-ml` para acessar os notebooks de exemplo.
+Localize na aba `Explorador de arquivos` o diretório `./samples-2-ml` para acessar os notebooks de exemplo.
 
-Veja mais detalhes no [README do ML](samples-ml/README.md).
+Veja mais detalhes no [README do ML](samples-2-ml/README.md).
 
 ### 🌐 Criando seu ambiente virtual para APIs RESTful
 
@@ -145,7 +145,7 @@ pip install fastapi uvicorn pytz
 Acesse a pasta de exemplos e execute:
 
 ```bash
-cd samples-api
+cd samples-1-api
 uvicorn main:app --reload
 ```
 
@@ -153,7 +153,52 @@ A API estará disponível em **http://localhost:8000**
 
 Acesse a documentação interativa em **http://localhost:8000/docs**
 
-Veja mais detalhes no [README da API](samples-api/README.md).
+Veja mais detalhes no [README da API](samples-1-api/README.md).
+
+### 🧠 Criando seu ambiente virtual para APIs de Inferência (AI)
+
+Vamos criar um ambiente virtual chamado `py12ai` com Python 3.12
+
+```bash
+conda create -n py12ai python=3.12
+```
+
+Ative o ambiente virtual com o comando:
+
+```bash
+conda activate py12ai
+```
+
+Verifique se o ambiente virtual está ativo com o comando:
+
+```bash
+conda info --envs
+```
+
+#### 📦 Instalando pacotes essenciais para API de Inferência
+
+Com o ambiente virtual `py12ai` ativo, instale os pacotes essenciais para servir modelos de Machine Learning via API RESTful com o comando:
+
+```bash
+pip install fastapi uvicorn scikit-learn pandas numpy joblib
+```
+
+#### 🚀 Executando o exemplo de API de Inferência
+
+Acesse a pasta de exemplos e execute:
+
+```bash
+cd samples-3-ai
+uvicorn main:app --reload
+```
+
+A API estará disponível em **http://localhost:8000**
+
+Acesse a documentação interativa em **http://localhost:8000/docs**
+
+Esta API carrega automaticamente o modelo treinado em `outputs/best_classification_model.pkl` e permite fazer predições de classificação de câncer de mama através de endpoints REST.
+
+Veja mais detalhes no [README da API de Inferência](samples-3-ai/README.md).
 
 ## 🤝 Contribuição
 
