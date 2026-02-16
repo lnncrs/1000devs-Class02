@@ -2,6 +2,8 @@
 
 **Iniciativa 1000devs Aula 02 - Montagem do Ambiente de desenvolvimento Python**
 
+> Este repositório é parte da iniciativa 1000devs, uma colaboração anual da Johnson & Johnson e do Hospital Israelita Albert Einstein para formar 1000 desenvolvedores no Brasil. Tive a oportunidade de apresentar os fundamentos, conceitos, campo e as ferramentas da Inteligência Artificial para os alunos.
+
 Este repositório contém exemplos práticos da **montagem de um ambiente de desenvolvimento** focado em tarefas de **aprendizado de máquina**, um segundo ambiente de desenvolvimento para **APIs RESTful** e finalmente um ambiente que **integra os dois** numa **API RESTful de inferência que usa o modelo já treinado**.
 
 ## Conteúdo
