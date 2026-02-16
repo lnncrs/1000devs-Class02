@@ -2,7 +2,29 @@
 
 **Iniciativa 1000devs Aula 02 - Montagem do Ambiente de desenvolvimento Python**
 
-Este repositório contém exemplos práticos da montagem de um ambiente de desenvolvimento Python focado em tarefas de Machine Learning, incluindo a instalação de bibliotecas essenciais, configuração de ambientes virtuais e uso de ferramentas como Jupyter Notebook.
+Este repositório contém exemplos práticos da **montagem de um ambiente de desenvolvimento** focado em tarefas de **aprendizado de máquina**, um segundo ambiente de desenvolvimento para **APIs RESTful** e finalmente um ambiente que **integra os dois** numa **API RESTful de inferência que usa o modelo já treinado**.
+
+## Conteúdo
+
+- `./samples-2-ml`: Pasta com os exemplos de **Aprendizado de Máquina**.
+
+- `./samples-1-api`: Pasta com os exemplos de **APIs RESTful**.
+
+- `./samples-3-ai`: Pasta com os exemplos de **APIs RESTful para Inferência**.
+
+## 🛠️ Como usar
+
+Clone este repositório
+
+```bash
+git clone https://github.com/lnncrs/1000devs-Class02.git
+```
+
+Entre no diretório do projeto
+
+```bash
+cd 1000devs-Class02
+```
 
 ## 🛠️ Instalação das ferramentas base
 
